@@ -40,7 +40,7 @@
     - `cmake -version`
     - `make -v`
     - `arm-none-eabi-gcc -v`
-  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/VSCode_HelloWorld)
+  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
     - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_Linux/issues)
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
