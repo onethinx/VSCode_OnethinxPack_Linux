@@ -40,7 +40,7 @@
     - `cmake -version`
     - `make -v`
     - `arm-none-eabi-gcc -v`
-  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/VSCode_HelloWorld)
+  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
     - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_Linux/issues)
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
@@ -56,3 +56,4 @@
   - Unpack the contents of the archive to the Dependencies Pack folder
   - Make sure the correct path is set in the environment variables (see step 3)
   - Restart your machine (or log-out and log-in) to reload the environment variables.
+  - If not done yet, update your projects CMakeLists.txt: change `${TOOL_LOC}` to `$ENV{ONETHINX_TOOLS_LOC}` (see the [Project Examples](https://github.com/onethinx/Onethinx_Project_Examples) for reference).
